@@ -1,8 +1,8 @@
 # Hindi-Spam-SMS-detector
 
 ## 📁 Project Structure and instructions
-- NlpProj.ipynb` -> The Google Colab notebook containing code.
-- hindi_sms_dataset_extended.csv` -> Text dataset.
+- NlpProj.ipynb -> The Google Colab notebook containing code.
+- hindi_sms_dataset_extended.csv -> Text dataset.
 - hindi_stopwords.txt -> Stopwords dataset.
 - Download the colab book and run the codes to train and save the models
 
@@ -20,7 +20,6 @@ Input Hindi Text:
 
 <img width="1142" height="140" alt="image" src="https://github.com/user-attachments/assets/bae3f153-226c-4c1c-82ea-b3bba757c645" />
 
-
 Bag of Words (BoW)	['ham']	✅ Correct
 
 TF-IDF	['ham']	✅ Correct
@@ -28,7 +27,6 @@ TF-IDF	['ham']	✅ Correct
 FastText Embeddings	['ham']	✅ Correct
 
 Combined Features (Ensemble/Hybrid)	['spam']	❌ Misclassified
-
 
 ### 💡 Key Takeaway
 
