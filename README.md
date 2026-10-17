@@ -15,10 +15,12 @@ Input Hindi Text:
 <img width="1142" height="140" alt="image" src="https://github.com/user-attachments/assets/bae3f153-226c-4c1c-82ea-b3bba757c645" />
 
 
-Feature Extraction Method	Prediction Outcome	Status
 Bag of Words (BoW)	['ham']	✅ Correct
+
 TF-IDF	['ham']	✅ Correct
+
 FastText Embeddings	['ham']	✅ Correct
+
 Combined Features (Ensemble/Hybrid)	['spam']	❌ Misclassified
 
 
