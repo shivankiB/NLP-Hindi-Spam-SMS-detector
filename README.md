@@ -24,4 +24,4 @@ Combined Features (Ensemble/Hybrid)	['spam']	❌ Misclassified
 
 💡 Key Takeaway
 
-While individual semantic or frequency-based feature extraction models (like BoW, TF-IDF, and FastText) failed to flag the deceptive nature of the text on their own, the Combined Features approach successfully caught the subtle patterns to accurately classify it as spam.
+This example highlights a classic edge case in text classification. While the text contains strong spam signals or keywords (like "विशेष ऑफर" and "स्पैम"), the sentence structure is actually informative (ham). The individual models successfully captured this nuance, whereas the Combined Features model over-relied on keyword density, resulting in a false-positive spam prediction.
